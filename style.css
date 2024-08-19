@@ -172,9 +172,10 @@ footer {
     header h1 {
         left: 50%;
         transform: translateX(-50%);
+        font-size: 20px;
     }
     .Introduction h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .Start_Work_Attendance {
         flex-direction: column;
@@ -192,7 +193,7 @@ footer {
     }
     .Record_Monthly {
         flex-direction: column;
-        height: 170vh;
+        height: 130vh;
     }
     .Record_Monthly img {
         width: 145%;
