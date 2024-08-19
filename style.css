@@ -191,9 +191,9 @@ footer {
 
 /*響應式設計語法*/
 @media screen and (max-width: 768px){
-    header ul {
+    /*header ul {
         display: none;
-    }
+    }*/
     header h1 {
         left: 50%;
         transform: translateX(-50%);
@@ -241,6 +241,7 @@ footer {
 .line {
     width: 24px;
     height: 24px;
+    top: 12px;
     background: rgb(4,8,28,0.8);
     cursor: pointer;
     display: block;
@@ -261,7 +262,7 @@ footer {
 }
 .line .menu {
     right: 18px;
-    top: 38px;
+    top: 27px;
 }
 
 .line .menu::before {
