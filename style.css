@@ -193,7 +193,6 @@ footer {
     }
     .Record_Monthly {
         flex-direction: column;
-        height: 90vh;
     }
     .Record_Monthly img {
         width: 145%;
