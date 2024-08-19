@@ -130,6 +130,30 @@ header a:hover {
 }
 
 .Record_Monthly {
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    color:rgb(41, 50, 76);
+    justify-content: space-between;
+    align-items: center;
+}
+.Record_Monthly div{
+    width: 450px;
+    text-align: center;
+}
+.Record_Monthly img {
+    width: 100%;
+}
+.Record_Monthly h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.Record_Monthly p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+/*
+.Record_Monthly {
     display: flex;
     height: 70vh;
 }
@@ -152,7 +176,7 @@ header a:hover {
 .info p {
     text-align: center;
     line-height: 2em;
-}
+}*/
 
 footer {
     display: flex;
@@ -193,17 +217,18 @@ footer {
     }
     .Record_Monthly {
         flex-direction: column;
+        
     }
-    .Record_Monthly img {
-        width: 145%;
+    .Record_Monthly div {
+        width: 90%;
     }
-    .info {
+    /*.info {
         width: 135%;
         padding: 40px 0;
     }
     .info h2 {
         font-size: 30px;
-    }
+    }*/
     footer {
         clear: both;
     }
